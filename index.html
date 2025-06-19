@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COMPUNEXUS</title>
+  <link rel="stylesheet" href="variables.css" />
+  <link rel="stylesheet" href="layout.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="components.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">COMPUNEXUS</h1>
+    <nav class="header__nav">
+      <ul class="nav__list">
+        <li><a href="#productos">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2 class="hero__title">Diseño galáctico para mentes creativas</h2>
+      <p class="hero__subtitle">Tienda virtual para el rincon gamer</p>
+      <a href="#productos" class="hero__cta">Ver catálogo</a>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2 class="section__title">Catálogo COMPUNEXUS</h2>
+      <div class="grid">
+        <article class="producto">
+          <img src="mou2025336_1.webp" alt="Mouse cósmico" />
+          <h3 class="producto__nombre">Mouse cósmico</h3>
+          <p class="producto__precio">$25.00</p>
+        </article>
+
+        <article class="producto">
+          <img src="g-lab-teclado-gaming-keyz-neon.webp" alt="Teclado neón" />
+          <h3 class="producto__nombre">Teclado neón</h3>
+          <p class="producto__precio">$40.00</p>
+        </article>
+
+        <article class="producto">
+          <img src="81pKMzTfIFL._AC_SL1500_.jpg" alt="Lámpara nebulosa" />
+          <h3 class="producto__nombre">Lámpara nebulosa</h3>
+          <p class="producto__precio">$35.00</p>
+        </article>
+
+        <article class="producto">
+          <img src="71nUYWaf0RL._AC_SL1500_.jpg" alt="Auriculares orbitales" />
+          <h3 class="producto__nombre">Auriculares orbitales</h3>
+          <p class="producto__precio">$50.00</p>
+        </article>
+
+        <article class="producto">
+          <img src="D_NQ_NP_2X_976037-MPE78008417188_082024-T-case-gamer-cybertel-poseidon-cbx-c5000-3-fan-doble-ring-30.webp" alt="Caja luminosa" />
+          <h3 class="producto__nombre">Caja luminosa</h3>
+          <p class="producto__precio">$22.00</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2 class="section__title">Contáctanos</h2>
+      <form class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+        <button type="submit" class="formulario__btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 COMPUNEXUS. Creado por Victoria Ramos.</p>
+    <div class="footer__icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-behance"></i></a>
+    </div>
+  </footer>
+</body>
+</html>

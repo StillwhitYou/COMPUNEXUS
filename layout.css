@@ -1,0 +1,22 @@
+/* layout.css */
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: var(--espaciado);
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}

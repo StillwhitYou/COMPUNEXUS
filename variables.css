@@ -1,0 +1,13 @@
+/* variables.css */
+:root {
+  --color-bg: #0a0a23;
+  --color-text: #ffffff;
+  --color-accent: #9f5afd;
+  --color-accent-hover: #7b3fcb;
+  --color-card: #1a1a2e;
+
+  --font-main: 'Orbitron', sans-serif;
+
+  --espaciado: 1rem;
+  --radio-borde: 10px;
+}
